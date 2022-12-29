@@ -299,3 +299,37 @@ A nota de corte é 5.*/
 //     default:
 //         alert('Digite um numero de 1 a 3');
 // }
+
+
+//_____________________________AULA 3 - REPETIÇÕES _________________________________________
+
+
+// let numero = parseFloat(prompt('Digite um numero'));
+// let indice = 1;
+
+// while (indice <= 1000){
+//     document.write(numero + ' x ' + indice + ' = ' + (numero* indice) + '<br>');
+
+//     indice = indice + 1;
+// }
+
+// document.write('saiu do loop');
+
+
+//______________desafio pessoal_______________________
+
+//digite um numero
+
+//divida ele por 0.65 até chegar a 0.00
+
+// let numero = parseFloat(prompt('digite um numero'));
+
+// let indice = 1;
+
+// while ( indice <= numero){
+//     // document.write(numero + ' x ' + indice + ' = ' + (numero* indice) + '<br>');
+//     document.write(numero + ' / ' + indice + ' = ' + (numero+indice) + '<br>' );
+//     indice = indice + 0.65;
+// }
+
+// documen.write('saiu do loop');
