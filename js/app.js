@@ -322,14 +322,14 @@ A nota de corte é 5.*/
 
 //divida ele por 0.65 até chegar a 0.00
 
-// let numero = parseFloat(prompt('digite um numero'));
+let numero = parseFloat(prompt('digite um numero'));
 
-// let indice = 1;
+let indice = 1;
 
-// while ( indice <= numero){
-//     // document.write(numero + ' x ' + indice + ' = ' + (numero* indice) + '<br>');
-//     document.write(numero + ' / ' + indice + ' = ' + (numero+indice) + '<br>' );
-//     indice = indice + 0.65;
-// }
+while ( indice <= numero){
+    // document.write(numero + ' x ' + indice + ' = ' + (numero* indice) + '<br>');
+    document.write(numero + ' / ' + indice + ' = ' + (numero+indice) + '<br>' );
+    indice = indice + 0.65;
+}
 
-// documen.write('saiu do loop');
+documen.write('saiu do loop');
