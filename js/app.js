@@ -1,3 +1,26 @@
+//_____________________________AULA 4 - FUNÇOES _________________________________________
+
+const output = document.querySelector('#output');
+
+var mensagem = '';
+
+for (var i = 0; i < 1001; i++) {
+    mensagem += 'i: ' + i + '<br>';
+}
+
+output.innerHTML = mensagem;
+
+
+
+
+
+
+
+
+
+
+
+
 //Aula 2.1 - Variáveis
 // var nome = prompt('Qual é o seu nome?');
 
@@ -301,7 +324,13 @@ A nota de corte é 5.*/
 // }
 
 
+
+
+
 //_____________________________AULA 3 - REPETIÇÕES _________________________________________
+
+
+
 
 
 // let numero = parseFloat(prompt('Digite um numero'));
@@ -337,10 +366,79 @@ A nota de corte é 5.*/
 //WHILE LOOP
 
 //Aqui defini a variável
-let numero = parseFloat(prompt('digite um numero'));
+// let numero = parseFloat(prompt('digite um numero'));
 
-for(var i = 0; i <= 100; i++){
-    document.write(numero + ' x ' + i + ' = ' + (numero * i) + '<br>');
-}
+// for(var i = 0; i <= 100; i++){
+//     document.write(numero + ' x ' + i + ' = ' + (numero * i) + '<br>');
+// }
 
-document.write('saiu do loop');
+// document.write('saiu do loop');
+
+
+//____________________________Exercicio Proposto _____________________________________________________
+
+// Para esta tarefa reescreva o código da aula anterior, mas inserindo uma linha divisória sempre que mudar a dezena. Ou seja, entre o 10 e o 11, entre o 20 e o 21 e assim por diante.
+
+// Dica: para escrever uma linha horizontal, use a tag <hr>
+
+// let numero = parseFloat(prompt('digite um numero'));
+
+// for (var i = 0; i <= 1000; i++) {
+//     let decimal = i % 10;
+//     if (decimal == 0 && i > 0) {
+//         document.write(numero + ' x ' + i + ' = ' + (numero * i) + '<hr>');
+
+//     } else {
+//         document.write(numero + ' x ' + i + ' = ' + (numero * i) + '<br>');
+
+//     }
+// }
+
+// document.write('saiu do loop');
+
+
+//____________________________Exercicio Proposto _____________________________________________________
+// Para este exercício, mostre na tela todos os anos a partir de 1004 até o ano 2017, pulando de quatro em quatro anos.
+
+// Por exemplo:
+
+// 1004
+
+// 1008
+
+//  1012
+
+// E assim por diante.
+
+// É como mostrar os anos bissextos, mas sem as regras para descobrir se um ano 
+//é bissexto ou não. (vamos imaginar que se o ano é múltiplo de quatro, ele é bissexto).
+
+// let anoInicial = 1004;
+// let anoFinal = 2017;
+// while (anoInicial <= anoFinal) {
+//     document.write('ano' + anoInicial + '<br>');
+//     anoInicial += 4;
+// }
+//________________________________colocando a linha_____________________________
+// for (var i = anoInicial; i <= anoFinal; i++) {
+//     let bissextos = i % 4;
+//     if (bissextos === 0) {
+//         document.write('ano' + i + '<hr>');
+//     } else {
+//         document.write('ano' + i + '<br>');
+//     }
+// }
+
+//_______________________________________________________________________________
+// let anoInicial = 1004;
+// let anoFinal = 2017;
+
+
+// while (anoInicial <= anoFinal) {
+//     if (!(anoInicial % 100 === 0) || (anoInicial % 400 === 0)) {
+//         document.write('ano' + anoInicial + '<br>');
+//     } else {
+//         document.write('ano' + anoInicial + ' nao é bissexto <br>');
+//     }
+//     anoInicial += 4;
+// }
