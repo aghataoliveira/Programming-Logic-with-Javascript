@@ -17,7 +17,7 @@
 const output = document.querySelector('#output');
 
 function criarTabuada() {
-    alert('mostrar tabuada');
+    // alert('mostrar tabuada');
 
     //perguntar o numero para o usuario
     let numero = prompt('digite um número');
@@ -32,7 +32,7 @@ function criarTabuada() {
     var mensagem = '';
 
     for (var i = 0; i < 1001; i++) {
-        mensagem += 'indice: ' + i + '<br>';
+        mensagem += numero + ' x ' + i + ' = ' + (numero * i) + '<br>';
     }
 
     //mostra mensagem no output
