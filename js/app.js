@@ -1,20 +1,50 @@
 //_____________________________AULA 4 - FUNÇOES _________________________________________
 
+// const output = document.querySelector('#output');
+
+// var mensagem = '';
+
+// for (var i = 0; i < 1001; i++) {
+//     mensagem += 'indice: ' + i + '<br>';
+// }
+
+// output.innerHTML = mensagem;
+
+//________________________________________________________________________________________
+
+//pedir o usuario para digitar um numero e mostrar a tabuada de 1 a 1000.
+//Deve ter a possibilidade do usuario tb digitar outro numero e tambem de limpar a tabuada
 const output = document.querySelector('#output');
 
-var mensagem = '';
+function criarTabuada() {
+    alert('mostrar tabuada');
 
-for (var i = 0; i < 1001; i++) {
-    mensagem += 'indice: ' + i + '<br>';
+    //perguntar o numero para o usuario
+    let numero = prompt('digite um número');
+    //converter o numero
+    numero = parseFloat(numero);
+
+    //criar uma variavel que servira de indice
+    var i = 1;
+
+    //enquanto indice <= 1000
+    //concatena na variavel mensagem
+    var mensagem = '';
+
+    for (var i = 0; i < 1001; i++) {
+        mensagem += 'indice: ' + i + '<br>';
+    }
+
+    //mostra mensagem no output
+    output.innerHTML = mensagem;
 }
 
-output.innerHTML = mensagem;
+criarTabuada();
 
 
+function limparTabuada() {
 
-
-
-
+}
 
 
 
