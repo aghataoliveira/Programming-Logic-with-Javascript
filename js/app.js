@@ -14,37 +14,37 @@
 
 //pedir o usuario para digitar um numero e mostrar a tabuada de 1 a 1000.
 //Deve ter a possibilidade do usuario tb digitar outro numero e tambem de limpar a tabuada
-const output = document.querySelector('#output');
+// const output = document.querySelector('#output');
 
-function criarTabuada() {
-    // alert('mostrar tabuada');
+// function criarTabuada() {
+//     // alert('mostrar tabuada');
 
-    //perguntar o numero para o usuario
-    let numero = prompt('digite um número');
-    //converter o numero
-    numero = parseFloat(numero);
+//     //perguntar o numero para o usuario
+//     let numero = prompt('digite um número');
+//     //converter o numero
+//     numero = parseFloat(numero);
 
-    //criar uma variavel que servira de indice
-    var i = 1;
+//     //criar uma variavel que servira de indice
+//     var i = 1;
 
-    //enquanto indice <= 1000
-    //concatena na variavel mensagem
-    var mensagem = '';
+//     //enquanto indice <= 1000
+//     //concatena na variavel mensagem
+//     var mensagem = '';
 
-    for (var i = 0; i < 1001; i++) {
-        mensagem += numero + ' x ' + i + ' = ' + (numero * i) + '<br>';
-    }
+//     for (var i = 0; i < 1001; i++) {
+//         mensagem += numero + ' x ' + i + ' = ' + (numero * i) + '<br>';
+//     }
 
-    //mostra mensagem no output
-    output.innerHTML = mensagem;
-}
+//     //mostra mensagem no output
+//     output.innerHTML = mensagem;
+// }
 
-criarTabuada();
+// criarTabuada();
 
 
-function limparTabuada() {
+// function limparTabuada() {
 
-}
+// }
 
 
 
